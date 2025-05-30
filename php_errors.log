@@ -1,0 +1,285 @@
+[10-May-2025 16:06:11 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:06:11 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:06:41 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:06:41 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:08:39 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:08:39 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:08:47 Europe/Berlin] Raw input received: {"accountId":1,"amount":5000}
+[10-May-2025 16:08:47 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:08:47 Europe/Berlin] Raw input received: {"accountId":1,"amount":5000}
+[10-May-2025 16:08:47 Europe/Berlin] Processing deposit for accountId: 1, amount: 5000
+[10-May-2025 16:08:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function makeDeposit() in C:\xampp\htdocs\PRJCT_211\make_deposit.php:63
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\make_deposit.php on line 63
+[10-May-2025 16:10:42 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:10:42 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:11:59 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:11:59 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:12:03 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:12:03 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:13:44 Europe/Berlin] Raw input received: {"accountId":1,"amount":10000}
+[10-May-2025 16:13:44 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:13:44 Europe/Berlin] Raw input received: {"accountId":1,"amount":10000}
+[10-May-2025 16:13:44 Europe/Berlin] Processing deposit for accountId: 1, amount: 10000
+[10-May-2025 16:13:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function makeDeposit() in C:\xampp\htdocs\PRJCT_211\make_deposit.php:63
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\make_deposit.php on line 63
+[10-May-2025 16:24:12 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:24:12 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:24:18 Europe/Berlin] Raw input received: {"accountId":1,"amount":4000}
+[10-May-2025 16:24:18 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:24:18 Europe/Berlin] Raw input received: {"accountId":1,"amount":4000}
+[10-May-2025 16:24:18 Europe/Berlin] Processing deposit for accountId: 1, amount: 4000
+[10-May-2025 16:24:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function makeDeposit() in C:\xampp\htdocs\PRJCT_211\make_deposit.php:63
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\make_deposit.php on line 63
+[10-May-2025 16:24:25 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:24:25 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:25:00 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:25:00 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:25:08 Europe/Berlin] Raw input received: {"accountId":1,"amount":50000}
+[10-May-2025 16:25:08 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:25:08 Europe/Berlin] Raw input received: {"accountId":1,"amount":50000}
+[10-May-2025 16:25:08 Europe/Berlin] Processing deposit for accountId: 1, amount: 50000
+[10-May-2025 16:25:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function makeDeposit() in C:\xampp\htdocs\PRJCT_211\make_deposit.php:63
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\make_deposit.php on line 63
+[10-May-2025 16:25:15 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:25:15 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:26:35 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:26:35 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:26:39 Europe/Berlin] Raw input received: {"accountId":1,"amount":5000}
+[10-May-2025 16:26:39 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:26:39 Europe/Berlin] Raw input received: {"accountId":1,"amount":5000}
+[10-May-2025 16:26:39 Europe/Berlin] Processing deposit for accountId: 1, amount: 5000
+[10-May-2025 16:26:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function makeDeposit() in C:\xampp\htdocs\PRJCT_211\make_deposit.php:63
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\make_deposit.php on line 63
+[10-May-2025 16:26:48 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:26:48 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:28:30 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:28:30 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:28:36 Europe/Berlin] Raw input received: {"accountId":1,"amount":5000}
+[10-May-2025 16:28:36 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:28:36 Europe/Berlin] Raw input received: {"accountId":1,"amount":5000}
+[10-May-2025 16:28:36 Europe/Berlin] Processing deposit for accountId: 1, amount: 5000
+[10-May-2025 16:28:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function makeDeposit() in C:\xampp\htdocs\PRJCT_211\make_deposit.php:63
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\make_deposit.php on line 63
+[10-May-2025 16:28:51 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:28:51 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:29:42 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:29:42 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:29:48 Europe/Berlin] Raw input received: {"accountId":1,"amount":10000}
+[10-May-2025 16:29:48 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:29:48 Europe/Berlin] Raw input received: {"accountId":1,"amount":10000}
+[10-May-2025 16:29:48 Europe/Berlin] Processing deposit for accountId: 1, amount: 10000
+[10-May-2025 16:29:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function makeDeposit() in C:\xampp\htdocs\PRJCT_211\make_deposit.php:63
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\make_deposit.php on line 63
+[10-May-2025 16:30:01 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:30:01 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:30:44 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:30:44 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:30:48 Europe/Berlin] Raw input received: {"accountId":1,"amount":20000}
+[10-May-2025 16:30:48 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:30:48 Europe/Berlin] make_deposit.php: Raw input received: {"accountId":1,"amount":20000}
+[10-May-2025 16:30:48 Europe/Berlin] make_deposit.php: Processing deposit for accountId: 1, amount: 20000
+[10-May-2025 16:30:48 Europe/Berlin] make_deposit.php: makeDeposit function not defined
+[10-May-2025 16:34:19 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:34:19 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:34:24 Europe/Berlin] Raw input received: {"accountId":1,"amount":1000}
+[10-May-2025 16:34:24 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:34:24 Europe/Berlin] make_deposit.php: Raw input received: {"accountId":1,"amount":1000}
+[10-May-2025 16:34:24 Europe/Berlin] make_deposit.php: Processing deposit for accountId: 1, amount: 1000
+[10-May-2025 16:34:24 Europe/Berlin] make_deposit.php: makeDeposit function not defined
+[10-May-2025 16:34:29 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:34:29 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:34:43 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:34:43 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:34:48 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:34:48 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:37:29 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:37:29 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:37:38 Europe/Berlin] Raw input received: {"accountId":1,"amount":10000}
+[10-May-2025 16:37:38 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:37:38 Europe/Berlin] make_deposit.php: Raw input received: {"accountId":1,"amount":10000}
+[10-May-2025 16:37:38 Europe/Berlin] make_deposit.php: Processing deposit for accountId: 1, amount: 10000
+[10-May-2025 16:37:38 Europe/Berlin] make_deposit.php: makeDeposit function not defined
+[10-May-2025 16:37:45 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:37:45 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:38:28 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:38:28 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:38:38 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:38:38 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:42:38 Europe/Berlin] get_account.php: Raw input received: {"accountId":1}
+[10-May-2025 16:42:38 Europe/Berlin] get_account.php: Processing accountId: 1
+[10-May-2025 16:42:38 Europe/Berlin] get_transactions.php: Raw input received: {"accountId":1}
+[10-May-2025 16:42:38 Europe/Berlin] get_transactions.php: Fetching transactions for accountId: 1
+[10-May-2025 16:42:57 Europe/Berlin] get_account.php: Raw input received: {"accountId":1,"amount":45000}
+[10-May-2025 16:42:57 Europe/Berlin] get_account.php: Processing accountId: 1
+[10-May-2025 16:42:57 Europe/Berlin] make_deposit.php: Raw input received: {"accountId":1,"amount":45000}
+[10-May-2025 16:42:57 Europe/Berlin] make_deposit.php: Processing deposit for accountId: 1, amount: 45000
+[10-May-2025 16:42:57 Europe/Berlin] make_deposit.php: makeDeposit function not defined
+[10-May-2025 16:43:06 Europe/Berlin] get_account.php: Raw input received: {"accountId":1}
+[10-May-2025 16:43:06 Europe/Berlin] get_account.php: Processing accountId: 1
+[10-May-2025 16:43:06 Europe/Berlin] get_transactions.php: Raw input received: {"accountId":1}
+[10-May-2025 16:43:06 Europe/Berlin] get_transactions.php: Fetching transactions for accountId: 1
+[10-May-2025 16:43:40 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:43:40 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:43:45 Europe/Berlin] Raw input received: {"accountId":1,"amount":45000}
+[10-May-2025 16:43:45 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:43:45 Europe/Berlin] make_deposit.php: Raw input received: {"accountId":1,"amount":45000}
+[10-May-2025 16:43:45 Europe/Berlin] make_deposit.php: Processing deposit for accountId: 1, amount: 45000
+[10-May-2025 16:43:45 Europe/Berlin] make_deposit.php: makeDeposit function not defined
+[10-May-2025 16:43:52 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:43:52 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:45:05 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:45:05 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:45:15 Europe/Berlin] Raw input received: {"accountId":1,"amount":45000}
+[10-May-2025 16:45:15 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:45:15 Europe/Berlin] Raw input received: {"accountId":1,"amount":45000}
+[10-May-2025 16:45:15 Europe/Berlin] Processing deposit for accountId: 1, amount: 45000
+[10-May-2025 16:45:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function makeDeposit() in C:\xampp\htdocs\PRJCT_211\make_deposit.php:63
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\make_deposit.php on line 63
+[10-May-2025 16:45:22 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:45:22 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:48:27 Europe/Berlin] Invalid request method: GET
+[10-May-2025 16:48:31 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:48:31 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:48:39 Europe/Berlin] Raw input received: {"accountId":1,"amount":45000}
+[10-May-2025 16:48:39 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:48:39 Europe/Berlin] make_deposit.php: Raw input received: {"accountId":1,"amount":45000}
+[10-May-2025 16:48:39 Europe/Berlin] make_deposit.php: Processing deposit for accountId: 1, amount: 45000
+[10-May-2025 16:48:39 Europe/Berlin] make_deposit.php: makeDeposit function not defined
+[10-May-2025 16:48:42 Europe/Berlin] Invalid request method: GET
+[10-May-2025 16:48:44 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:48:44 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:48:57 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:48:57 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:49:13 Europe/Berlin] Raw input received: {"accountId":1,"amount":50000}
+[10-May-2025 16:49:13 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:49:13 Europe/Berlin] make_deposit.php: Raw input received: {"accountId":1,"amount":50000}
+[10-May-2025 16:49:13 Europe/Berlin] make_deposit.php: Processing deposit for accountId: 1, amount: 50000
+[10-May-2025 16:49:13 Europe/Berlin] make_deposit.php: makeDeposit function not defined
+[10-May-2025 16:49:19 Europe/Berlin] Invalid request method: GET
+[10-May-2025 16:49:24 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:49:24 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:49:28 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:49:28 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:52:54 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:52:54 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:53:02 Europe/Berlin] Raw input received: {"accountId":1,"amount":60000}
+[10-May-2025 16:53:02 Europe/Berlin] Processing accountId: 1
+[10-May-2025 16:53:02 Europe/Berlin] make_deposit.php: Raw input received: {"accountId":1,"amount":60000}
+[10-May-2025 16:53:02 Europe/Berlin] make_deposit.php: Processing deposit for accountId: 1, amount: 60000
+[10-May-2025 16:53:02 Europe/Berlin] make_deposit.php: makeDeposit function not defined
+[10-May-2025 16:53:37 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 16:53:37 Europe/Berlin] Processing accountId: 1
+[10-May-2025 17:13:21 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 17:13:21 Europe/Berlin] Processing accountId: 1
+[10-May-2025 17:13:30 Europe/Berlin] make_deposit.php: Raw input received: {"accountId":1,"amount":100000}
+[10-May-2025 17:13:30 Europe/Berlin] make_deposit.php: Processing deposit for accountId: 1, amount: 100000
+[10-May-2025 17:13:30 Europe/Berlin] make_deposit.php: Before calling makeDeposit
+[10-May-2025 17:13:30 Europe/Berlin] PHP Warning:  Undefined array key "type_id" in C:\xampp\htdocs\PRJCT_211\db_functions.php on line 132
+[10-May-2025 17:13:30 Europe/Berlin] make_deposit.php: After calling makeDeposit, result: {"success":true,"message":"Successfully deposited $100,000.00 to account","new_balance":135000,"reference":"DEP1746890010508"}
+[10-May-2025 17:13:41 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 17:13:41 Europe/Berlin] Processing accountId: 1
+[10-May-2025 17:13:47 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 17:13:47 Europe/Berlin] Processing accountId: 1
+[10-May-2025 17:14:01 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 17:14:01 Europe/Berlin] Processing accountId: 1
+[10-May-2025 17:25:00 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 17:25:00 Europe/Berlin] Processing accountId: 1
+[10-May-2025 17:33:12 Europe/Berlin] Raw input received: {"accountId":1}
+[10-May-2025 17:33:12 Europe/Berlin] Processing accountId: 1
+[10-May-2025 17:33:16 Europe/Berlin] make_withdrawal.php: Raw input received: {"accountId":1,"amount":5000}
+[10-May-2025 17:33:16 Europe/Berlin] make_withdrawal.php: Processing withdrawal for accountId: 1, amount: 5000
+[10-May-2025 17:33:16 Europe/Berlin] make_withdrawal.php: Before calling makeWithdrawal
+[10-May-2025 17:33:16 Europe/Berlin] PHP Warning:  Undefined array key "type_id" in C:\xampp\htdocs\PRJCT_211\db_functions.php on line 216
+[10-May-2025 17:33:16 Europe/Berlin] make_withdrawal.php: After calling makeWithdrawal, result: {"success":true,"message":"Successfully withdrawn $5,000.00 from account","penalty":null,"new_balance":120000,"reference":"WDR1746891196954"}
+[10-May-2025 21:09:50 Europe/Berlin] Raw input received: {"accountId":4}
+[10-May-2025 21:09:50 Europe/Berlin] Processing accountId: 4
+[10-May-2025 21:09:53 Europe/Berlin] Raw input received: {"accountId":4}
+[10-May-2025 21:09:53 Europe/Berlin] Processing accountId: 4
+[10-May-2025 21:10:02 Europe/Berlin] Raw input received: {"accountId":7}
+[10-May-2025 21:10:02 Europe/Berlin] Processing accountId: 7
+[11-May-2025 13:49:09 Europe/Berlin] Raw input received: {"accountId":8}
+[11-May-2025 13:49:09 Europe/Berlin] Processing accountId: 8
+[11-May-2025 15:51:27 Europe/Berlin] Raw input received: {"accountId":8}
+[11-May-2025 15:51:27 Europe/Berlin] Processing accountId: 8
+[11-May-2025 15:52:32 Europe/Berlin] Raw input received: {"accountId":1}
+[11-May-2025 15:52:32 Europe/Berlin] Processing accountId: 1
+[14-May-2025 00:53:14 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=17396 in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=17396 in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=17396 in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=17396 in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=17396 in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Warning:  mysqli::__construct(): Error while reading greeting packet. PID=17396 in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\PRJCT_211\connect_db.php:7
+Stack trace:
+#0 C:\xampp\htdocs\PRJCT_211\connect_db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pay360')
+#1 C:\xampp\htdocs\PRJCT_211\get_account.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\PRJCT_211\connect_db.php:7
+Stack trace:
+#0 C:\xampp\htdocs\PRJCT_211\connect_db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pay360')
+#1 C:\xampp\htdocs\PRJCT_211\get_account.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\PRJCT_211\connect_db.php:7
+Stack trace:
+#0 C:\xampp\htdocs\PRJCT_211\connect_db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pay360')
+#1 C:\xampp\htdocs\PRJCT_211\get_account.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\PRJCT_211\connect_db.php:7
+Stack trace:
+#0 C:\xampp\htdocs\PRJCT_211\connect_db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pay360')
+#1 C:\xampp\htdocs\PRJCT_211\get_account.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\PRJCT_211\connect_db.php:7
+Stack trace:
+#0 C:\xampp\htdocs\PRJCT_211\connect_db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pay360')
+#1 C:\xampp\htdocs\PRJCT_211\get_all_accounts.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:53:14 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\PRJCT_211\connect_db.php:7
+Stack trace:
+#0 C:\xampp\htdocs\PRJCT_211\connect_db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pay360')
+#1 C:\xampp\htdocs\PRJCT_211\get_account.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[14-May-2025 00:54:18 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\PRJCT_211\connect_db.php:7
+Stack trace:
+#0 C:\xampp\htdocs\PRJCT_211\connect_db.php(7): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'pay360')
+#1 C:\xampp\htdocs\PRJCT_211\get_all_accounts.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\PRJCT_211\connect_db.php on line 7
+[15-May-2025 19:30:27 Europe/Berlin] Raw input received: {"accountId":4}
+[15-May-2025 19:30:27 Europe/Berlin] Processing accountId: 4
+[15-May-2025 19:30:35 Europe/Berlin] Raw input received: {"accountId":5}
+[15-May-2025 19:30:35 Europe/Berlin] Processing accountId: 5
+[15-May-2025 20:05:02 Europe/Berlin] Raw input received: {"accountId":1}
+[15-May-2025 20:05:02 Europe/Berlin] Processing accountId: 1
+[16-May-2025 19:50:54 Europe/Berlin] Raw input received: {"accountId":5}
+[16-May-2025 19:50:54 Europe/Berlin] Processing accountId: 5
+[22-May-2025 16:02:27 America/New_York] Raw input received: {"accountId":15}
+[22-May-2025 16:02:27 America/New_York] Processing accountId: 15
+[22-May-2025 16:02:33 America/New_York] submit_entry.php: Raw input received: {"accountId":15,"amount":100000}
+[22-May-2025 16:02:33 America/New_York] submit_entry.php: Processing deposit for accountId: 15, amount: 100000
+[22-May-2025 16:02:33 America/New_York] submit_entry.php: Before calling makeDeposit
+[22-May-2025 16:02:33 America/New_York] submit_entry.php: After calling makeDeposit, result: {"success":true,"message":"Successfully deposited $100,000.00 to account","new_balance":200000,"reference":"DEP1747944153111"}
+[22-May-2025 16:02:42 America/New_York] Raw input received: {"accountId":15}
+[22-May-2025 16:02:42 America/New_York] Processing accountId: 15

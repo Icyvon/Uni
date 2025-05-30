@@ -1,0 +1,579 @@
+:root {
+    --color-primary: #2E7D32; /* Darker green for primary actions */
+    --color-primary-hover: #4CAF50; /* Lighter green for hover */
+    --color-secondary: #546E7A; /* Muted blue-gray for secondary elements */
+    --color-background: #F5F7FA; /* Light gray background */
+    --color-sidebar: #FFFFFF; /* White sidebar for a clean look */
+    --color-text: #263238; /* Dark gray for text */
+    --color-text-light: #78909C; /* Lighter gray for secondary text */
+    --color-accent: #0288D1; /* Blue accent for highlights */
+    --color-success: #388E3C; /* Green for success messages */
+    --color-warning: #FBC02D; /* Yellow for warnings */
+    --color-danger: #D32F2F; /* Red for errors */
+    --color-card: #FFFFFF; /* White for cards */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+    --spacing-base: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-size: 15px;
+    line-height: 1.6;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: var(--color-sidebar);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    transition: width 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.collapsed {
+    width: 70px;
+}
+
+.sidebar-header {
+    padding: var(--spacing-base);
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--color-primary);
+    margin: 0;
+}
+
+.sidebar.collapsed .logo h2,
+.sidebar.collapsed .nav-links a span {
+    display: none;
+}
+
+.sidebar-toggle {
+    background: none;
+    border: none;
+    color: var(--color-text-light);
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.sidebar-toggle:hover {
+    color: var(--color-primary);
+}
+
+.nav-links {
+    list-style: none;
+    padding: var(--spacing-base) 0;
+    flex-grow: 1;
+}
+
+.nav-links li {
+    margin-bottom: 4px;
+}
+
+.nav-links a {
+    display: flex;
+    align-items: center;
+    padding: 12px var(--spacing-base);
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a i {
+    margin-right: 12px;
+    width: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: rgba(46, 125, 50, 0.05);
+    color: var(--color-primary);
+}
+
+.nav-links a.active {
+    font-weight: 600;
+    border-left: 3px solid var(--color-primary);
+}
+
+.sidebar.collapsed .nav-links a i {
+    margin-right: 0;
+}
+
+.sidebar-footer {
+    padding: var(--spacing-base);
+    border-top: 1px solid #E0E0E0;
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-text-light);
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    margin-left: 250px;
+    padding: 32px;
+    background-color: var(--color-background);
+    transition: margin-left 0.3s ease;
+}
+
+.main-content.sidebar-collapsed {
+    margin-left: 70px;
+}
+
+/* Header Styles */
+header {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+
+header i {
+    font-size: 24px;
+    margin-right: 12px;
+    color: var(--color-primary);
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+/* Card Styles */
+.dashboard-card,
+.profile-card,
+.form-card,
+.transactions-panel {
+    background-color: var(--color-card);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #E0E0E0;
+}
+
+.dashboard-card h2,
+.profile-card h3,
+.transactions-panel h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-card h2 i,
+.profile-card h3 i,
+.transactions-panel h3 i {
+    margin-right: 8px;
+    color: var(--color-primary);
+}
+
+/* Overview Grid */
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.overview-item {
+    background-color: rgba(46, 125, 50, 0.03);
+    padding: 16px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    border: 1px solid rgba(46, 125, 50, 0.1);
+}
+
+.overview-item h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text-light);
+    margin-bottom: 8px;
+}
+
+.overview-item p {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+/* Accordion Styles */
+.accordion-item {
+    margin-bottom: 12px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+.accordion-header {
+    width: 100%;
+    background-color: var(--color-card);
+    color: var(--color-text);
+    padding: 16px;
+    border: 1px solid #E0E0E0;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion-header i:first-child {
+    margin-right: 8px;
+    color: var(--color-primary);
+}
+
+.accordion-header i:last-child {
+    color: var(--color-text-light);
+    transition: transform 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: rgba(46, 125, 50, 0.03);
+}
+
+.accordion-header.active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: rgba(46, 125, 50, 0.03);
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.accordion-header.active i:last-child {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: var(--color-card);
+    border: 1px solid #E0E0E0;
+    border-top: none;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content.active {
+    max-height: 500px;
+    padding: 16px;
+}
+
+/* Tab Styles */
+.tabs {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+    border-bottom: 2px solid #E0E0E0;
+    margin-bottom: 24px;
+    gap: 8px; /* Add space between buttons when they wrap */
+}
+
+.tab-button {
+    background: none;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-light);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    flex: 1; /* Distribute space evenly */
+    min-width: 120px; /* Ensure buttons don't get too small */
+    text-align: center;
+    justify-content: center;
+}
+
+.tab-button i {
+    margin-right: 8px;
+}
+
+.tab-button:hover {
+    color: var(--color-primary);
+}
+
+.tab-button.active {
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+    font-weight: 600;
+}
+
+.tab-content {
+    padding: 0;
+}
+
+.tab-pane {
+    display: none; /* Hide all tab panes by default */
+}
+
+.tab-pane.active {
+    display: block; /* Show only the active tab pane */
+}
+
+/* Table Styles */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.accounts-table,
+.transactions-table,
+.loans-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.accounts-table th,
+.accounts-table td,
+.transactions-table th,
+.transactions-table td,
+.loans-table th,
+.loans-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.accounts-table th,
+.transactions-table th,
+.loans-table th {
+    font-weight: 600;
+    color: var(--color-text-light);
+    background-color: rgba(46, 125, 50, 0.03);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.accounts-table tr:nth-child(even),
+.transactions-table tr:nth-child(even),
+.loans-table tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+.accounts-table tr:hover,
+.transactions-table tr:hover,
+.loans-table tr:hover {
+    background-color: rgba(46, 125, 50, 0.05);
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #E0E0E0;
+    border-radius: var(--border-radius);
+    background-color: #FFFFFF;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.1);
+}
+
+/* Button Styles */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    box-shadow: var(--shadow-sm);
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.2);
+}
+
+/* Message Styles */
+.error {
+    color: var(--color-danger);
+    background-color: rgba(211, 47, 47, 0.05);
+    padding: 12px 16px;
+    border-radius: var(--border-radius);
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-left: 4px solid var(--color-danger);
+    display: flex;
+    align-items: center;
+}
+
+.success {
+    color: var(--color-success);
+    background-color: rgba(56, 142, 60, 0.05);
+    padding: 12px 16px;
+    border-radius: var(--border-radius);
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-left: 4px solid var(--color-success);
+    display: flex;
+    align-items: center;
+}
+
+.error i,
+.success i {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 200px;
+    }
+    
+    .main-content {
+        margin-left: 200px;
+        padding: 24px;
+    }
+    
+    .sidebar.collapsed {
+        width: 70px;
+    }
+    
+    .main-content.sidebar-collapsed {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 250px;
+        transform: translateX(-100%);
+        position: fixed;
+        z-index: 1000;
+    }
+    
+    .sidebar.active {
+        transform: translateX(0);
+    }
+    
+    .sidebar.collapsed {
+        transform: translateX(-100%);
+    }
+    
+    .main-content {
+        margin-left: 0;
+        padding: 16px;
+    }
+    
+    .main-content.sidebar-collapsed {
+        margin-left: 0;
+    }
+    
+    .overview-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tabs {
+        flex-direction: column; /* Stack tabs vertically on smaller screens */
+        gap: 4px;
+    }
+
+    .tab-button {
+        padding: 10px 16px;
+        font-size: 13px;
+        min-width: 100%; /* Full width for stacked buttons */
+    }
+
+    .tab-button i {
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+    
+    .dashboard-card,
+    .profile-card,
+    .form-card,
+    .transactions-panel {
+        padding: 16px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+
+    .tab-button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+}
